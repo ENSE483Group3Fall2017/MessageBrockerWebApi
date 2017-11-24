@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>ENSE483Group3Fall2017.PetTracking.Contracts</AssemblyName>
+    <RootNamespace>ENSE483Group3Fall2017.PetTracking.Contracts</RootNamespace>
+  </PropertyGroup>
+
+</Project>

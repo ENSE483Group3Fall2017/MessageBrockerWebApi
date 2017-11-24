@@ -1,0 +1,7 @@
+.vs
+/src/MessageBrokerWebApi/MessageBrokerWebApi/obj
+/src/MessageBrokerWebApi/MessageBrokerWebApi/bin
+/src/MessageBrokerWebApi/Messaging.Contracts/obj
+/src/MessageBrokerWebApi/Messaging.Contracts/bin
+/src/MessageBrokerWebApi/PetTracking.Contracts/obj
+/src/MessageBrokerWebApi/PetTracking.Contracts/bin
