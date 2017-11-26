@@ -5,3 +5,4 @@
 /src/MessageBrokerWebApi/Messaging.Contracts/bin
 /src/MessageBrokerWebApi/PetTracking.Contracts/obj
 /src/MessageBrokerWebApi/PetTracking.Contracts/bin
+/src/MessageBrokerWebApi/MessageBrokerWebApi/*.user

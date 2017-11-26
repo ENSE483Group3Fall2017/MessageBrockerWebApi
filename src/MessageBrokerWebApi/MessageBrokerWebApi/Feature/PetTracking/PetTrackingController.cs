@@ -19,7 +19,7 @@ namespace ENSE483Group3Fall2017.MessageBrokerWebApi.Feature.PetTracking
 
         // POST api/values
         [HttpPost]
-        public Task Post(Create.Command command) =>
+        public Task Post([FromBody]Create.Command command) =>
             _mediator.Send(command);
     }
 }

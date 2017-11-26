@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using ENSE483Group3Fall2017.MessageBrokerWebApi.Infrastructure.Messaging;
+using ENSE483Group3Fall2017.PetTracking.Contracts.V1;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -36,15 +38,18 @@ namespace ENSE483Group3Fall2017.MessageBrokerWebApi.Feature.PetTracking
         public class CommandHandler : ICancellableAsyncRequestHandler<Command>
         {
             private readonly IMapper _mapper;
+            private readonly IMessageQueueRelay<TrackingBatch> _queueRelay;
 
-            public CommandHandler(IMapper mapper)
+            public CommandHandler(IMapper mapper, IMessageQueueRelay<TrackingBatch> queueRelay)
             {
                 _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+                _queueRelay = queueRelay ?? throw new ArgumentNullException(nameof(queueRelay));
             }
 
-            public Task Handle(Command message, CancellationToken cancellationToken)
+            public Task Handle(Command command, CancellationToken cancellationToken)
             {
-                throw new NotImplementedException();
+                var message = _mapper.Map<Command, TrackingBatch>(command);
+                return _queueRelay.PostAsync(message);
             }
         }
     }
