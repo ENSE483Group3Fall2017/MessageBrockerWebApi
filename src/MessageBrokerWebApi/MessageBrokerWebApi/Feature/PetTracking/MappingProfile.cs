@@ -9,6 +9,7 @@ namespace ENSE483Group3Fall2017.MessageBrokerWebApi.Feature.PetTracking
         {
             CreateMap<Create.Command.TrackingItem, TrackingItem>();
             CreateMap<Create.Command, TrackingBatch>()
+                .ForMember(dst => dst.Id, opt => opt.MapFrom(src => src.BatchId))
                 .ForMember(dst => dst.Items, opt => opt.MapFrom(src => src.TrackingItems));
         }
     }
