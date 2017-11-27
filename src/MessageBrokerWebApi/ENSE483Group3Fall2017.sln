@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBrokerWebApi", "MessageBrokerWebApi\MessageBrokerWebApi.csproj", "{BF806D60-5B96-4611-B368-DB2116BF49D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBrokerWebApi", "MessageBrokerWebApi\MessageBrokerWebApi.csproj", "{BF806D60-5B96-4611-B368-DB2116BF49D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracking.Contracts", "PetTracking.Contracts\PetTracking.Contracts.csproj", "{3E14D403-BBCA-42B8-BD75-A5110CFEAD47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Contracts", "Messaging.Contracts\Messaging.Contracts.csproj", "{7076909A-F671-42EE-B04C-35DFBA2C29AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Contracts", "Messaging.Contracts\Messaging.Contracts.csproj", "{AB5A83CE-9B2A-41D3-81D4-61EDA22A6F58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetTracking.Contracts", "PetTracking.Contracts\PetTracking.Contracts.csproj", "{A2E29B47-ED28-4C1C-94C2-9FED2E56093A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{BF806D60-5B96-4611-B368-DB2116BF49D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF806D60-5B96-4611-B368-DB2116BF49D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF806D60-5B96-4611-B368-DB2116BF49D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E14D403-BBCA-42B8-BD75-A5110CFEAD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E14D403-BBCA-42B8-BD75-A5110CFEAD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E14D403-BBCA-42B8-BD75-A5110CFEAD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E14D403-BBCA-42B8-BD75-A5110CFEAD47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB5A83CE-9B2A-41D3-81D4-61EDA22A6F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB5A83CE-9B2A-41D3-81D4-61EDA22A6F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB5A83CE-9B2A-41D3-81D4-61EDA22A6F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB5A83CE-9B2A-41D3-81D4-61EDA22A6F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7076909A-F671-42EE-B04C-35DFBA2C29AA}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{7076909A-F671-42EE-B04C-35DFBA2C29AA}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7076909A-F671-42EE-B04C-35DFBA2C29AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7076909A-F671-42EE-B04C-35DFBA2C29AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E29B47-ED28-4C1C-94C2-9FED2E56093A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E29B47-ED28-4C1C-94C2-9FED2E56093A}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A2E29B47-ED28-4C1C-94C2-9FED2E56093A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E29B47-ED28-4C1C-94C2-9FED2E56093A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

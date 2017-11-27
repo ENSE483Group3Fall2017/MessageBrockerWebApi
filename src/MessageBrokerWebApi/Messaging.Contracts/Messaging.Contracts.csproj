@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ENSE483Group3Fall2017.Messaging.Contracts</AssemblyName>
+    <RootNamespace>ENSE483Group3Fall2017.Messaging.Contracts</RootNamespace>
+  </PropertyGroup>
+
+</Project>

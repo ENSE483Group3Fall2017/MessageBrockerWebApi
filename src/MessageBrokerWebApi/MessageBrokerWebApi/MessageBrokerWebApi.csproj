@@ -27,8 +27,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Messaging.Contracts\Messaging.Contracts.csproj" />
-    <ProjectReference Include="..\PetTracking.Contracts\PetTracking.Contracts.csproj" />
+    <Reference Include="ENSE483Group3Fall2017.Messaging.Contracts">
+      <HintPath>..\..\..\..\MessageProcessingWebJob\src\Bin\Messaging.Contracts\ENSE483Group3Fall2017.Messaging.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="ENSE483Group3Fall2017.PetTracking.Contracts">
+      <HintPath>..\..\..\..\MessageProcessingWebJob\src\Bin\PetTracking.Contracts\V1\ENSE483Group3Fall2017.PetTracking.Contracts.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
